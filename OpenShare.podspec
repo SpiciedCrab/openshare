@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "OpenShare"
-  s.version      = "0.0.1"
+  s.version      = "1.0.1"
   s.summary      = "share to social network without official SDKs"
 
   s.description  = <<-DESC
@@ -80,7 +80,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/100apps/openshare.git", :tag => "0.0.1" }
+  s.source       = { :git => "https://github.com/SpiciedCrab/openshare.git", :tag => "1.0.1" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
