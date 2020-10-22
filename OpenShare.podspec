@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "OpenShare"
-  s.version      = "1.0.1"
+  s.version      = "1.0.4"
   s.summary      = "share to social network without official SDKs"
 
   s.description  = <<-DESC
@@ -92,6 +92,7 @@ Pod::Spec.new do |s|
   #
 
   s.source_files  = "openshare", "openshare/**/*.{h,m}"
+  s.pod_target_xcconfig = { "DEFINES_MODULE" => "YES" }
   # s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
